@@ -1,5 +1,5 @@
 
-# Перед тем, как начать кодить   
+# Перед тем, как начать кодить
 
 Есть несколько основных платформ разработки JavaScript/html.
 
@@ -20,19 +20,19 @@
 
 Термины Gecko, V8, Webkit широко используются в профессиональных кругах. Trident и Presto — реже.
 
-Sometimes, the cross-browser development becomes complicated, so browsers are  graded according to the level of support from A to C.
+Иногда кросс-браузерная разработка усложняется, так что разделим браузеры по уровню их поддержки от А до В.
 
-<dl><dt>A. Latest Firefox, IE, Safari/Chrome</dt>
-<dd>Supported ideally.</dd>
-<dt>B. Opera, less recent major browsers</dt>
-<dd>Supported well enough, but minor drawbacks in look and feel are possible.</dd>
-<dt>C. Old major browsers</dt>
-<dd>Only the core functionality of the site is supported.</dd>
-<dt>D. Very old. Text browsers.</dt>
-<dd>Not supported. If it works, it works. If it doesn't, no one cares.</dd>
+<dl><dt>А. Последний Firefox, IE, Safari/Chrome</dt>
+<dd>Поддерживаются идеально.</dd>
+<dt>Б. Opera и менее популярные браузеры</dt>
+<dd>Поддерживаются довольно неплохо, но возможны незначительные проблемы с видом и поведением.</dd>
+<dt>В. Старые основные браузеры</dt>
+<dd>Поддерживается только основная функциональность.</dd>
+<dt>Г. Очень старые браузеры. Текстовые браузеры.</dt>
+<dd>Не поддерживаются. Если работает — хорошо. Если нет — всем всё равно.</dd>
 </dl>
 
-The grading above is an example from real life.
+Это разделение — пример из реальной жизни.
 
 
 ## Choose the modern DOCTYPE   
