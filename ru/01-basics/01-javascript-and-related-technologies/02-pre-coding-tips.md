@@ -3,7 +3,7 @@
 
 Есть несколько основных платформ разработки JavaScript/html.
 
-Обычный web-сайт будет хорош на всех.
+Обычный сайт будет хорош на всех.
 
 =Cut
 
@@ -35,24 +35,24 @@
 Это разделение — пример из реальной жизни.
 
 
-## Choose the modern DOCTYPE   
+## Выбери современный DOCTYPE   
 
-As you probably already know from HTML, there are two main rendering modes: <i>Standards Mode</i> and <i>Quirks mode</i>. Actually, there is a third mode called <i>Almost Standards Mode</i>, all of them described well in <a href="http://en.wikipedia.org/wiki/Quirks_mode">Wikipedia quirks mode page</a>.
+Как уже известно из HTML, есть две основных модели отрисовки: <i>Режим Стандартов</i> и <i>Режим Совместимости</i>. В действительности же есть ещё один режим, <i>Режим Частичной Совместимости</i>, и все они хорошо описаны в Википедии: <a href="http://en.wikipedia.org/wiki/Quirks_mode">Quirks mode</a>.
 
-Browser chooses the mode according to `DOCTYPE` header of HTML.
+Браузер выбирает режим в соответствии с `DOCTYPE` из шапки HTML.
 
-For modern sites there is a good DOCTYPE:
+Для современных сайтов хорош такой DOCTYPE:
 [html]
 *!*<!DOCTYPE HTML>*/!*
 [/html]
 
-This DOCTYPE make modern browsers render in Standards Mode and older ones in Almost Standards Mode (which is the maximum they can do).
+С этим DOCTYPE современные браузеры работают в Режиме Стандартов, а старые — в Режиме Частичной Совместимости (это максимум, на что они способны).
 
-Note, that the modern rendering mode is not just an HTML issue. There are JavaScript properties which also depend on the rendering mode, especially CSS-box and positioning-related.
+Обратите внимание, что современный режим отрисовки — вопрос не только для HTML. Есть свойства JavaScript, которые зависят от режима отрисовки, особенно CSS-box и позиционирование.
 
-Also, styles can be applied differently, for example Internet Explorer 7+ in standards-compliant mode (strict !DOCTYPE), can apply the `:hover` pseudo-class to any element (as it should), while in a non-strict mode it can only apply :hover to links. 
+Также, стили могут быть применены по-разному, например, Internet Explorer 7+ в Режиме Стандартов (строгий !DOCTYPE) может применять псевдо-класс `:hover` к любому элементу (как это и должно быть), а в не строгом режиме он может применять ':hover' только к ссылкам. 
 
-Not using correct DOCTYPE will cost you time debugging. <code>&lt;!DOCTYPE HTML&gt;</code> is ok.
+Отказываясь от выбора верного DOCTYPE, вы увеличиваете время отладки. <code>&lt;!DOCTYPE HTML&gt;</code> это ок.
 
 
 ## Resources
